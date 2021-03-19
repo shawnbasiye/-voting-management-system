@@ -13,43 +13,45 @@
 
 
 <div class="container" >
-   <div class="header">
-      <h2>Register</h2>
+   <div class="row">
+      <div class="col-sm-6 m-auto border p-2 shadow mt-3">
+         <h2 class="text-center">Register</h2>
+         <form action="./controllers/register.php" method="post">
+            <div class="mb-3">
+               <label for="first_name">First name:</label>
+               <Input type="text" class="form-control" name="first_name" id="first_name"  required>
+            </div>
+
+            <div class="mb-3">
+               <label for="last_name">Last name:</label>
+               <Input type="text" class="form-control"  name="last_name" id="last_name" required>
+            </div>
+
+            <div class="mb-3">
+               <label for="email">Email:</label>
+               <Input type="email" class="form-control"  name="email"required>
+            </div>
+
+            <div class="mb-3">
+                  <label for="reg_no">Reg_No:</label>
+                  <Input type="text" class="form-control"  name="reg_no" id="reg_no" required>
+            </div>
+
+            <div class="mb-3">
+                  <label for="password">Password:</label>
+                  <Input type="password" class="form-control"  name="password" id="password" required>
+            </div>
+
+            <div class="mb-3">
+                  <label for="confirm_password">Confirm Password:</label>
+                  <Input type="password" name="confirm_password" class="form-control"  id="confirm_password" required>
+            </div>
+
+            <input type="Submit" class="btn btn-primary" name="reg_user" value="Submit" />
+         </form>
+         <p>Already a User?<a href="login.php"><b>Login</b></a></p>
+      </div>
    </div>
-   <form action="Registartion.php" method="post">
-      <div>
-         <label for= "First_name">First_name:</label>
-         <Input type="text" name="First_name"required>
-      </div>
-
-      <div>
-         <label for= "Last_name">Second_name:</label>
-         <Input type="text" name="Last_name"required>
-      </div>
-
-      <div>
-         <label for= "Email">Email:</label>
-         <Input type="text" name="Email"required>
-      </div>
-
-      <div>
-            <label for= "Reg_No">Reg_No:</label>
-            <Input type="text" name="Reg_No"required>
-      </div>
-
-      <div>
-            <label for= "Password">Password:</label>
-            <Input type="text" name="Password"required>
-      </div>
-
-      <div>
-            <label for= "Confirm Password">Confirm Password:</label>
-            <Input type="text" name="Confirm Password" required>
-      </div>
-
-      <button type="Submit" name="reg_User">Submit</button>
-   </form>
-   <p>Already a User?<a href="login.php"><b>Login</b></a></p>
 </div>
  
 <?php 
