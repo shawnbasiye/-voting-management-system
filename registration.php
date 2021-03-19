@@ -52,8 +52,6 @@
    <p>Already a User?<a href="login.php"><b>Login</b></a></p>
 </div>
  
-   <?php 
-
-require_once './includes/footer.php';
-
+<?php 
+   require_once './includes/footer.php';
 ?>
