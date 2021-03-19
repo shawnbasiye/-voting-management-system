@@ -1,5 +1,5 @@
 <?php
-  require_once './includes/header.php';
+  require_once './includes/guestheader.php';
 ?>
 <!-- Registration form 
    containes the following controls:
@@ -53,5 +53,5 @@
 </div>
  
 <?php 
-   require_once './includes/footer.php';
+   require_once './includes/guestfooter.php';
 ?>

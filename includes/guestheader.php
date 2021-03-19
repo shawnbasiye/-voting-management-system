@@ -8,8 +8,9 @@
 <body>
 <div class="navbar"> 
    <a href="#"><i class="fa fa-fw fa-bookmark"></i>Bookmarks</a>
-  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a class="active" href="./index.php"><i class="fa fa-fw fa-home"></i> Home</a> 
   <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
   <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
-  <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+  <a href="./registration.php"><i class="fa fa-fw fa-user"></i> Register</a>
+  <a href="./login.php"><i class="fa fa-fw fa-user"></i> Login</a>
 </div>
