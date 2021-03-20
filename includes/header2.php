@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,7 +7,7 @@
 <body>
 <div class="navbar"> 
    <a href="#"><i class="fa fa-fw fa-bookmark"></i>Bookmarks</a>
-  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a class="active" href="#"><i class="fa fa-fw fa-tachometer"></i> Dashboard</a> 
   <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
   <a href="#"><i class="fa fa-fw fa-bell"></i> Notification</a>
   <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>  

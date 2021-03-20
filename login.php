@@ -10,6 +10,8 @@
 <div class="container" >
       <div class="row">
         <div class="col-sm-4 m-auto border p-2 shadow mt-3">
+        <div class="background-image.jpg">
+  <form action="/action_page.php" class="container">
            <h2 class="text-center">Login</h2>
          
    <form action="./controllers/login.php" method="post">
@@ -25,8 +27,11 @@
    </form>
    <input type="Submit" class="btn btn-primary" name="Login" value="Submit" />
    <p>Not a User?<a href="registration.php"><b>Register Here</b></a></p>
-   </div>
-
+   <a href="dashboard.php"><b>Dashboard</b></a></p>
+     </div>
+    </div>
+  </div>
+</div>
 <?php 
 
 require_once './includes/guestfooter.php';
